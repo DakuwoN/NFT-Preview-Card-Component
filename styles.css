@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+* {
+    /* This removes border from the corners of the screen, so our image touches the edge of the browser window */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* Set's the box-sizing to border box so the elements fit inside their parent elements */
+}
+
+body {
+    font-family: 'Outfit', sans-serif;
+
+}
+
+.container {
+    max-width: 350px;
+    /* Sets the width of page content, so it's not so wide on the screen and more cenetered. */
+}
