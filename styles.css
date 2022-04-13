@@ -10,10 +10,23 @@
 
 body {
     font-family: 'Outfit', sans-serif;
+    background-color: hsl(217, 54%, 11%);
 
 }
 
 .container {
     max-width: 350px;
     /* Sets the width of page content, so it's not so wide on the screen and more cenetered. */
+    margin: 0 auto;
+    /* centers the content */
+}
+
+.wrapper {
+    margin: 2rem 1rem;
+    /* create 2rem of space in top and bottom of container as well as 1rem of space for left and right of border */
+    padding: 20px;
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 15px;
+    /* rounds off the corners */
+
 }
