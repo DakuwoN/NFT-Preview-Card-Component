@@ -28,16 +28,5 @@ body {
     background-color: hsl(216, 50%, 16%);
     border-radius: 15px;
     /* rounds off the corners */
-}
-
-.img-top {
-    border-radius: 12px;
-    overflow: scroll;
-    /* the image is overflowing the container div so the bottom image appears not be rounded, but only because of the icon.svg file */
-}
-
-.img-top img {
-    width: 100%;
-    /* Width so it doesnt overflow the container */
 
 }
