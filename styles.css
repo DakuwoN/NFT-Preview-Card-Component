@@ -34,10 +34,29 @@ body {
     border-radius: 12px;
     overflow: hidden;
     /* the image is overflowing the container div so the bottom image appears not be rounded, but only because of the icon.svg file */
+    position: relative;
+    /* we want the img overlay to have the position of absolute, to round the bottom edge */
+
 }
 
 .img-top img {
     width: 100%;
     /* Width so it doesnt overflow the container */
+    display: block;
+    /* gives the image a display block to override the inline image default element */
 
+
+}
+
+.img-overlay {
+    position: absolute;
+    /* This helps round the bottom edges of the image, by moving the img icon inside its ancestor element */
+    width: 50px;
+    /* sets the width of the image icon */
+    left: 50%;
+    /* moves the image halfway from the left towards center */
+    top: 50%;
+    /* moves the image icon halfway from the top towards the center */
+    transform: translate(-50%, -50%);
+    /* centers the icon by transforming with the other 50% percent */
 }
