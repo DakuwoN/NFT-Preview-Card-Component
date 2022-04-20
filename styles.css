@@ -45,10 +45,25 @@ body {
     display: block;
     /* gives the image a display block to override the inline image default element */
 
-
 }
 
 .img-overlay {
+    position: absolute;
+    /* positioned relative to nearest positioned ancestor (instead of relative to viewport) */
+    left: 0;
+    /* specify the horizontal position  of a positioned element */
+    top: 0;
+    /* specify the vertical position of a positioned element */
+    height: 100%;
+    /* height of the border area */
+    width: 100%;
+    /* sets width of border area */
+    background-color: hsla(178, 100%, 50%, 0.5);
+    /* we add the alpha component to represent the HSL color transparency.
+}
+
+
+.img-overlay img {
     position: absolute;
     /* This helps round the bottom edges of the image, by moving the img icon inside its ancestor element */
     width: 50px;
