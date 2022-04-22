@@ -59,7 +59,8 @@ body {
     width: 100%;
     /* sets width of border area */
     background-color: hsla(178, 100%, 50%, 0.5);
-    /* we add the alpha component to represent the HSL color transparency.
+    /* we add the alpha component to represent the HSL color transparency. */
+    display: none;
 }
 
 
@@ -74,4 +75,22 @@ body {
     /* moves the image icon halfway from the top towards the center */
     transform: translate(-50%, -50%);
     /* centers the icon by transforming with the other 50% percent */
+}
+
+.img-top:hover .img-overlay {
+    display: block;
+    /* takes up the whole width? */
+}
+
+.box-text a {
+    color: #FFF;
+    text-decoration: none;
+    /* removes underline on link */
+    font-weight: 600;
+    font-size: 21px;
+    padding: 20px 0;
+    /* give space around text */
+    display: inline-block;
+    /* the element is formatted as an inline element? */
+
 }
